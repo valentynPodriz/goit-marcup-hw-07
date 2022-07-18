@@ -16,13 +16,15 @@
 		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- normaliz styles end -->
+	<link rel="stylesheet" href="./css/main.min.css" />
 	<link rel="stylesheet" href="./css/styles.css" />
+
 </head>
 
 <body data-body>
 	<!-- шапка -->
 	<header class="header">
-		<div class="container header-container">
+		<div class="container header__container">
 			<nav class="header-nav">
 				<a class="logo link" href="./index.html">
 					<span class="accent">Web</span>Studio</a>
@@ -58,8 +60,8 @@
 		<!-- герой -->
 		<section class="section hero overlay">
 			<div class="container">
-				<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-				<button data-modal-open class="hero-butten btn" type="button">Заказать услугу</button>
+				<h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+				<button data-modal-open class="hero__butten btn" type="button">Заказать услугу</button>
 			</div>
 		</section>
 
@@ -129,30 +131,30 @@
 
 
 		<!-- Особенности -->
-		<section class="section">
+		<section class="section work-section">
 			<div class="container">
 				<h2 class="visually-hidden">Особенности</h2>
-				<ul class="list list-work">
-					<li class="item-work  item-icon icon-antenna">
-						<h3 class="title-list">Внимание к деталям</h3>
-						<p class="text-work">Идейные соображения, а также начало повседневной работы по формированию
+				<ul class="list work__list">
+					<li class="work__item  item-icon icon-antenna">
+						<h3 class="abuat__title">Внимание к деталям</h3>
+						<p class="work__text">Идейные соображения, а также начало повседневной работы по формированию
 							позиции.</p>
 					</li>
-					<li class="item-work item-icon icon-clock">
-						<h3 class="title-list">Пунктуальность</h3>
-						<p class="text-work">
+					<li class="work__item item-icon icon-clock">
+						<h3 class="abuat__title">Пунктуальность</h3>
+						<p class="work__text">
 							Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
 						</p>
 					</li>
-					<li class="item-work item-icon icon-diagram">
-						<h3 class="title-list">Планирование</h3>
-						<p class="text-work">
+					<li class="work__item item-icon icon-diagram">
+						<h3 class="abuat__title">Планирование</h3>
+						<p class="work__text">
 							Равным образом консультация с широким активом в значительной степени обуславливает.
 						</p>
 					</li>
-					<li class="item-work item-icon icon-astronaut">
-						<h3 class="title-list">Современные технологии</h3>
-						<p class="text-work">Значимость этих проблем настолько очевидна, что реализация плановых
+					<li class="work__item item-icon icon-astronaut">
+						<h3 class="abuat__title">Современные технологии</h3>
+						<p class="work__text">Значимость этих проблем настолько очевидна, что реализация плановых
 							заданий.
 						</p>
 					</li>
@@ -161,29 +163,29 @@
 		</section>
 
 		<!-- род занятия -->
-		<section class="section section-about">
+		<section class="section about-section">
 			<div class="container">
 				<h2 class="title-section">Чем мы занимаемся</h2>
-				<ul class="list list-about">
-					<li>
+				<ul class="list about__list">
+					<li class="about__item">
 						<div class="img-wrapper">
-							<img class="about-img" src="./images/occupation/box-1.jpg" alt="род занятия-1" width="370"
+							<img class="about__img" src="./images/occupation/box-1.jpg" alt="род занятия-1" width="370"
 								height="294" />
-							<p class="about-descr">Десктопные приложения</p>
+							<p class="about__descr">Десктопные приложения</p>
 						</div>
 					</li>
-					<li>
+					<li class="about__item">
 						<div class="img-wrapper">
-							<img class="about-img" src="./images/occupation/box-2.jpg" alt="род занятия-2" width="370"
+							<img class="about__img" src="./images/occupation/box-2.jpg" alt="род занятия-2" width="370"
 								height="294" />
-							<p class="about-descr">Мобильные приложения</p>
+							<p class="about__descr">Мобильные приложения</p>
 						</div>
 					</li>
-					<li>
+					<li class="about__item">
 						<div class="img-wrapper">
-							<img class="about-img" src="./images/occupation/box-3.jpg" alt="род занятия-3" width="370"
+							<img class="about__img" src="./images/occupation/box-3.jpg" alt="род занятия-3" width="370"
 								height="294" />
-							<p class="about-descr">Дизайнерские решения</p>
+							<p class="about__descr">Дизайнерские решения</p>
 						</div>
 
 
@@ -193,16 +195,16 @@
 		</section>
 
 		<!-- команда -->
-		<section class="section section-team">
+		<section class="section team-section">
 			<div class="container">
 				<h2 class="title-section">Наша команда</h2>
-				<ul class="list list-team">
-					<li class="item-team">
-						<img class="img-team" src="./images/team/photo1.jpg" alt="Игорь Демьяненко" width="270"
+				<ul class="list team__list">
+					<li class="team__item">
+						<img class="team__img" src="./images/team/photo1.jpg" alt="Игорь Демьяненко" width="270"
 							height="260" />
-						<div class="box-team">
-							<h3 class="title-name">Игорь Демьяненко</h3>
-							<p class="profession">Product Designer</p>
+						<div class="team__box">
+							<h3 class="team__title">Игорь Демьяненко</h3>
+							<p class="team__text">Product Designer</p>
 							<ul class="list social-media">
 								<li class="social-media-item"> <a href="" class=" link social-media-link"><svg
 											class="social-media-icon" width="20" height="20">
@@ -223,12 +225,12 @@
 							</ul>
 						</div>
 					</li>
-					<li class="item-team">
-						<img class="img-team" src="./images/team/photo2.jpg" alt="Ольга Репина" width="270"
+					<li class="team__item">
+						<img class="team__img" src="./images/team/photo2.jpg" alt="Ольга Репина" width="270"
 							height="260" />
-						<div class="box-team">
-							<h3 class="title-name">Ольга Репина</h3>
-							<p class="profession">Frontend Developer</p>
+						<div class="team__box">
+							<h3 class="team__title">Ольга Репина</h3>
+							<p class="team__text">Frontend Developer</p>
 							<ul class="list social-media">
 								<li class="social-media-item"> <a href="" class=" link social-media-link"><svg
 											class="social-media-icon" width="20" height="20">
@@ -249,12 +251,12 @@
 							</ul>
 						</div>
 					</li>
-					<li class="item-team">
-						<img class="img-team" src="./images/team/photo3.jpg" alt="Николай Тарасов" width="270"
+					<li class="team__item">
+						<img class="team__img" src="./images/team/photo3.jpg" alt="Николай Тарасов" width="270"
 							height="260" />
-						<div class="box-team">
-							<h3 class="title-name">Николай Тарасов</h3>
-							<p class="profession">Marketing</p>
+						<div class="team__box">
+							<h3 class="team__title">Николай Тарасов</h3>
+							<p class="team__text">Marketing</p>
 							<ul class="list social-media">
 								<li class="social-media-item"> <a href="" class=" link social-media-link"><svg
 											class="social-media-icon" width="20" height="20">
@@ -275,12 +277,12 @@
 							</ul>
 						</div>
 					</li>
-					<li class="item-team">
-						<img class="img-team" src="./images/team/photo4.jpg" alt="Михаил Ермаков" width="270"
+					<li class="team__item">
+						<img class="team__img" src="./images/team/photo4.jpg" alt="Михаил Ермаков" width="270"
 							height="260" />
-						<div class="box-team">
-							<h3 class="title-name">Михаил Ермаков</h3>
-							<p class="profession">UI Designer</p>
+						<div class="team__box">
+							<h3 class="team__title">Михаил Ермаков</h3>
+							<p class="team__text">UI Designer</p>
 							<ul class="list social-media">
 								<li class="social-media-item"> <a href="" class=" link social-media-link"><svg
 											class="social-media-icon" width="20" height="20">
@@ -384,7 +386,7 @@
 			<div class="footer-form">
 				<strong class="title-footer title-footer-form">Подпишитесь на рассылку</strong>
 				<form>
-					<label class="footer-label" for="email"></label>
+
 					<div class="form">
 						<input class="input-footer-form" id="email" type="email" placeholder="E-mail" />
 						<button class="footer-button btn-footer-form" type="submit">Подписаться</button>
